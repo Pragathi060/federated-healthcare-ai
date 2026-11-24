@@ -1108,7 +1108,7 @@ export default function Prediction({ api, health }) {
           ERROR
           ========================= */}
 
-      {error && (
+      {error && health !== "Backend connected" && (
         <div className="prediction-error">
           {error}
         </div>
