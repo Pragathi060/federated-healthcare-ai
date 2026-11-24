@@ -13,3 +13,4 @@ nltk
 transformers
 gunicorn
 torch
+torchvision
