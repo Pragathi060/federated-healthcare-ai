@@ -1,0 +1,132 @@
+{
+    "1": {
+        "participating_hospitals": 4,
+        "failed_clients": 0,
+        "client_metrics": [
+            {
+                "hospital": "hospital_d",
+                "accuracy": 0.5393258333206177,
+                "samples": 89
+            },
+            {
+                "hospital": "hospital_a",
+                "accuracy": 0.5454545617103577,
+                "samples": 88
+            },
+            {
+                "hospital": "hospital_b",
+                "accuracy": 0.4886363744735718,
+                "samples": 88
+            },
+            {
+                "hospital": "hospital_c",
+                "accuracy": 0.4204545319080353,
+                "samples": 88
+            }
+        ]
+    },
+    "2": {
+        "participating_hospitals": 4,
+        "failed_clients": 0,
+        "client_metrics": [
+            {
+                "hospital": "hospital_b",
+                "accuracy": 0.4886363744735718,
+                "samples": 88
+            },
+            {
+                "hospital": "hospital_a",
+                "accuracy": 0.5454545617103577,
+                "samples": 88
+            },
+            {
+                "hospital": "hospital_d",
+                "accuracy": 0.5393258333206177,
+                "samples": 89
+            },
+            {
+                "hospital": "hospital_c",
+                "accuracy": 0.6477272510528564,
+                "samples": 88
+            }
+        ]
+    },
+    "3": {
+        "participating_hospitals": 4,
+        "failed_clients": 0,
+        "client_metrics": [
+            {
+                "hospital": "hospital_d",
+                "accuracy": 0.6853932738304138,
+                "samples": 89
+            },
+            {
+                "hospital": "hospital_a",
+                "accuracy": 0.6818181872367859,
+                "samples": 88
+            },
+            {
+                "hospital": "hospital_b",
+                "accuracy": 0.7386363744735718,
+                "samples": 88
+            },
+            {
+                "hospital": "hospital_c",
+                "accuracy": 0.6477272510528564,
+                "samples": 88
+            }
+        ]
+    },
+    "4": {
+        "participating_hospitals": 4,
+        "failed_clients": 0,
+        "client_metrics": [
+            {
+                "hospital": "hospital_c",
+                "accuracy": 0.6477272510528564,
+                "samples": 88
+            },
+            {
+                "hospital": "hospital_a",
+                "accuracy": 0.8068181872367859,
+                "samples": 88
+            },
+            {
+                "hospital": "hospital_b",
+                "accuracy": 0.7727272510528564,
+                "samples": 88
+            },
+            {
+                "hospital": "hospital_d",
+                "accuracy": 0.7415730357170105,
+                "samples": 89
+            }
+        ]
+    },
+    "5": {
+        "participating_hospitals": 4,
+        "failed_clients": 0,
+        "client_metrics": [
+            {
+                "hospital": "hospital_a",
+                "accuracy": 0.7727272510528564,
+                "samples": 88
+            },
+            {
+                "hospital": "hospital_c",
+                "accuracy": 0.6704545617103577,
+                "samples": 88
+            },
+            {
+                "hospital": "hospital_b",
+                "accuracy": 0.7840909361839294,
+                "samples": 88
+            },
+            {
+                "hospital": "hospital_d",
+                "accuracy": 0.7191011309623718,
+                "samples": 89
+            }
+        ]
+    }
+}

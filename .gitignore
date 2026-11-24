@@ -1,0 +1,19 @@
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Old model artifacts
+*.pkl
+
+# TB training dataset
+backend/data/tuberculosis/
+
+# Frontend dependencies/build
+frontend/node_modules/
+frontend/dist/
+
+# Environment variables
+.env

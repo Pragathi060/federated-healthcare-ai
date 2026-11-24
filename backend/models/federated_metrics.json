@@ -1,0 +1,79 @@
+{
+  "rounds": [
+    {
+      "round": 1,
+      "accuracy": 0.7524703557312253,
+      "precision": 0.7276515151515153,
+      "recall": 0.8218531468531469,
+      "f1": 0.7680985680985681,
+      "roc_auc": 0.7962531786395423
+    },
+    {
+      "round": 2,
+      "accuracy": 0.7524703557312253,
+      "precision": 0.7276515151515153,
+      "recall": 0.8218531468531469,
+      "f1": 0.7680985680985681,
+      "roc_auc": 0.7962531786395423
+    },
+    {
+      "round": 3,
+      "accuracy": 0.7524703557312253,
+      "precision": 0.7276515151515153,
+      "recall": 0.8218531468531469,
+      "f1": 0.7680985680985681,
+      "roc_auc": 0.7962531786395423
+    },
+    {
+      "round": 4,
+      "accuracy": 0.7524703557312253,
+      "precision": 0.7276515151515153,
+      "recall": 0.8218531468531469,
+      "f1": 0.7680985680985681,
+      "roc_auc": 0.7962531786395423
+    },
+    {
+      "round": 5,
+      "accuracy": 0.7524703557312253,
+      "precision": 0.7276515151515153,
+      "recall": 0.8218531468531469,
+      "f1": 0.7680985680985681,
+      "roc_auc": 0.7962531786395423
+    }
+  ],
+  "hospital_metrics": [
+    {
+      "hospital": "hospital_a",
+      "accuracy": 0.8181818181818182,
+      "precision": 0.75,
+      "recall": 0.9,
+      "f1": 0.8181818181818182,
+      "roc_auc": 0.925
+    },
+    {
+      "hospital": "hospital_b",
+      "accuracy": 0.6363636363636364,
+      "precision": 0.6,
+      "recall": 0.8181818181818182,
+      "f1": 0.6923076923076923,
+      "roc_auc": 0.6446280991735537
+    },
+    {
+      "hospital": "hospital_c",
+      "accuracy": 0.7727272727272727,
+      "precision": 0.8333333333333334,
+      "recall": 0.7692307692307693,
+      "f1": 0.8,
+      "roc_auc": 0.8461538461538461
+    },
+    {
+      "hospital": "hospital_d",
+      "accuracy": 0.782608695652174,
+      "precision": 0.7272727272727273,
+      "recall": 0.8,
+      "f1": 0.7619047619047619,
+      "roc_auc": 0.7692307692307692
+    }
+  ],
+  "privacy_note": "Only model parameters are aggregated in this simulation; raw hospital rows are not sent to the API."
+}

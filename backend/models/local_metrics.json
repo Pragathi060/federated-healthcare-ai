@@ -1,0 +1,38 @@
+[
+  {
+    "hospital": "hospital_a",
+    "accuracy": 0.6363636363636364,
+    "precision": 0.75,
+    "recall": 0.3,
+    "f1": 0.42857142857142855,
+    "roc_auc": 0.9166666666666667,
+    "samples": 110
+  },
+  {
+    "hospital": "hospital_b",
+    "accuracy": 0.6363636363636364,
+    "precision": 0.5882352941176471,
+    "recall": 0.9090909090909091,
+    "f1": 0.7142857142857143,
+    "roc_auc": 0.652892561983471,
+    "samples": 110
+  },
+  {
+    "hospital": "hospital_c",
+    "accuracy": 0.5909090909090909,
+    "precision": 0.5909090909090909,
+    "recall": 1.0,
+    "f1": 0.7428571428571429,
+    "roc_auc": 0.8376068376068376,
+    "samples": 110
+  },
+  {
+    "hospital": "hospital_d",
+    "accuracy": 0.7391304347826086,
+    "precision": 1.0,
+    "recall": 0.4,
+    "f1": 0.5714285714285714,
+    "roc_auc": 0.7769230769230769,
+    "samples": 112
+  }
+]

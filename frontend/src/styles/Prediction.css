@@ -1,0 +1,514 @@
+/* =========================================================
+   PREDICTION PAGE
+   ========================================================= */
+
+.prediction-page {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Header */
+
+.prediction-header {
+  margin-bottom: 24px;
+}
+
+.prediction-header h3 {
+  margin: 0 0 8px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #172033;
+}
+
+.prediction-header p {
+  margin: 0;
+  color: #667085;
+  font-size: 15px;
+}
+
+/* =========================================================
+   DISEASE SELECTOR
+   ========================================================= */
+
+.disease-selector-card {
+  background: #ffffff;
+  border: 1px solid #e6eaf0;
+  border-radius: 14px;
+  padding: 20px;
+  margin-bottom: 18px;
+}
+
+.disease-selector-card label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #344054;
+}
+
+.disease-selector-card select {
+  width: 100%;
+  margin-top: 8px;
+}
+
+/* =========================================================
+   FORM CARD
+   ========================================================= */
+
+.prediction-form-card {
+  background: #ffffff;
+  border: 1px solid #e6eaf0;
+  border-radius: 14px;
+  padding: 24px;
+}
+
+/* Form grid */
+
+.prediction-form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px 22px;
+}
+
+/* Form field */
+
+.prediction-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.prediction-field label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #344054;
+  margin-bottom: 7px;
+}
+
+.prediction-field input,
+.prediction-field select {
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 42px;
+  padding: 9px 12px;
+  border: 1px solid #d0d5dd;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #101828;
+  font-size: 14px;
+  outline: none;
+  transition: 0.2s ease;
+}
+
+.prediction-field input:focus,
+.prediction-field select:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.10);
+}
+
+.prediction-field input::placeholder {
+  color: #98a2b3;
+}
+
+/* =========================================================
+   MEDICATION INFORMATION
+   ========================================================= */
+
+.medication-info {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 14px 16px;
+  border: 1px solid #e4e7ec;
+  border-radius: 10px;
+  background: #f8fafc;
+  margin-top: 2px;
+}
+
+.medication-icon {
+  font-size: 20px;
+  line-height: 1;
+}
+
+.medication-info-content {
+  flex: 1;
+}
+
+.medication-info-title {
+  margin: 0 0 4px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #344054;
+}
+
+.medication-info-text {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #667085;
+}
+
+/* =========================================================
+   BUTTONS
+   ========================================================= */
+
+.prediction-actions {
+  grid-column: 1 / -1;
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.predict-button {
+  border: none;
+  border-radius: 8px;
+  padding: 11px 20px;
+  background: #2563eb;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.predict-button:hover {
+  background: #1d4ed8;
+}
+
+.predict-button:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.reset-button {
+  border: 1px solid #d0d5dd;
+  border-radius: 8px;
+  padding: 11px 18px;
+  background: white;
+  color: #344054;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.reset-button:hover {
+  background: #f9fafb;
+}
+
+/* =========================================================
+   RESULT CARD
+   ========================================================= */
+
+.prediction-result {
+  margin-top: 22px;
+  background: #ffffff;
+  border: 1px solid #e4e7ec;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.prediction-result-header {
+  padding: 20px 22px;
+  border-bottom: 1px solid #e4e7ec;
+}
+
+.prediction-result-header h3 {
+  margin: 0;
+  font-size: 20px;
+  color: #172033;
+}
+
+.prediction-result-header p {
+  margin: 6px 0 0;
+  font-size: 13px;
+  color: #667085;
+}
+
+/* Main prediction */
+
+.prediction-main {
+  padding: 22px;
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 18px;
+}
+
+.prediction-highlight {
+  padding: 20px;
+  border-radius: 12px;
+  background: #f8fafc;
+  border: 1px solid #e4e7ec;
+}
+
+.prediction-highlight-label {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #667085;
+  margin-bottom: 7px;
+}
+
+.prediction-disease {
+  font-size: 16px;
+  font-weight: 600;
+  color: #344054;
+  margin-bottom: 12px;
+}
+
+.prediction-text {
+  font-size: 22px;
+  font-weight: 700;
+  color: #2563eb;
+  line-height: 1.3;
+}
+
+/* Risk */
+
+.risk-card {
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #e4e7ec;
+  background: #ffffff;
+}
+
+.risk-label {
+  font-size: 12px;
+  color: #667085;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.risk-value {
+  margin-top: 8px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #16a34a;
+}
+
+/* =========================================================
+   MODEL DETAILS
+   ========================================================= */
+
+.model-details {
+  margin: 0 22px 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.model-detail {
+  padding: 14px 16px;
+  border: 1px solid #e4e7ec;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.model-detail-label {
+  display: block;
+  font-size: 12px;
+  color: #667085;
+  margin-bottom: 5px;
+}
+
+.model-detail-value {
+  font-size: 14px;
+  font-weight: 600;
+  color: #344054;
+}
+
+/* =========================================================
+   CONFIDENCE
+   ========================================================= */
+
+.confidence-section {
+  margin: 0 22px 20px;
+}
+
+.confidence-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 7px;
+}
+
+.confidence-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: #344054;
+}
+
+.confidence-value {
+  font-size: 13px;
+  font-weight: 700;
+  color: #2563eb;
+}
+
+.confidence-bar {
+  height: 8px;
+  background: #e5e7eb;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.confidence-fill {
+  height: 100%;
+  background: #2563eb;
+  border-radius: 999px;
+  transition: width 0.4s ease;
+}
+
+.confidence-note {
+  margin: 7px 0 0;
+  font-size: 11px;
+  color: #98a2b3;
+}
+
+/* =========================================================
+   PRIVACY CARD
+   ========================================================= */
+
+.privacy-card {
+  margin: 0 22px 16px;
+  padding: 16px;
+  border-radius: 10px;
+  background: #eff6ff;
+  border: 1px solid #dbeafe;
+}
+
+.privacy-card h4 {
+  margin: 0 0 6px;
+  font-size: 14px;
+  color: #1e40af;
+}
+
+.privacy-card p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #475467;
+}
+
+/* =========================================================
+   DISCLAIMER
+   ========================================================= */
+
+.prediction-disclaimer {
+  margin: 0 22px 20px;
+  padding: 15px 16px;
+  border-radius: 10px;
+  background: #fffbeb;
+  border: 1px solid #fde68a;
+}
+
+.prediction-disclaimer h4 {
+  margin: 0 0 5px;
+  font-size: 13px;
+  color: #92400e;
+}
+
+.prediction-disclaimer p {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #78350f;
+}
+
+/* New prediction */
+
+.new-prediction-wrapper {
+  padding: 0 22px 22px;
+}
+
+.new-prediction-button {
+  width: 100%;
+  border: 1px solid #2563eb;
+  border-radius: 8px;
+  padding: 10px;
+  background: white;
+  color: #2563eb;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.new-prediction-button:hover {
+  background: #eff6ff;
+}
+
+/* =========================================================
+   ERROR
+   ========================================================= */
+
+.prediction-error {
+  margin-top: 16px;
+  padding: 13px 15px;
+  border-radius: 9px;
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  color: #b91c1c;
+  font-size: 13px;
+}
+
+/* =========================================================
+   TB IMAGE
+   ========================================================= */
+
+.xray-upload {
+  grid-column: 1 / -1;
+  padding: 22px;
+  border: 2px dashed #d0d5dd;
+  border-radius: 12px;
+  text-align: center;
+  background: #fafafa;
+}
+
+.xray-upload input {
+  margin-top: 12px;
+}
+
+.xray-preview {
+  margin-top: 18px;
+}
+
+.xray-preview img {
+  max-width: 320px;
+  max-height: 320px;
+  border-radius: 10px;
+  border: 1px solid #e4e7ec;
+}
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 800px) {
+  .prediction-form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .prediction-main {
+    grid-template-columns: 1fr;
+  }
+
+  .model-details {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .prediction-form-card {
+    padding: 16px;
+  }
+
+  .prediction-header h3 {
+    font-size: 23px;
+  }
+
+  .prediction-actions {
+    flex-direction: column;
+  }
+
+  .predict-button,
+  .reset-button {
+    width: 100%;
+  }
+}

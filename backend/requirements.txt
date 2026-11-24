@@ -1,0 +1,13 @@
+Flask
+flask-cors
+pandas
+numpy
+scikit-learn
+joblib
+requests
+matplotlib
+plotly
+flwr
+spacy
+nltk
+transformers
