@@ -8,7 +8,7 @@ import NLPAnalysis from "./components/NLPAnalysis";
 import LLMAssistant from "./components/LLMAssistant";
 import ModelPerformance from "./components/ModelPerformance";
 
-const API = "http://127.0.0.1:5000/api";
+const API = "https://federated-healthcare-ai.onrender.com/api";
 
 export default function App() {
   const [page, setPage] = useState("dashboard");
