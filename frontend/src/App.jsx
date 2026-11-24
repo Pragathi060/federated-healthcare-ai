@@ -42,8 +42,9 @@ export default function App() {
   };
 
   const props = {
-    api: API,
-  };
+  api: API,
+  health: health,
+};
 
   const pages = {
     dashboard: <Dashboard {...props} />,
