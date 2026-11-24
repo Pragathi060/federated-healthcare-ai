@@ -12,3 +12,4 @@ spacy
 nltk
 transformers
 gunicorn
+torch
