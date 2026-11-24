@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "../styles/Prediction.css";
 
 /* =========================================================
@@ -546,7 +546,7 @@ const diseaseNames = {
    COMPONENT
    ========================================================= */
 
-export default function Prediction({ api }) {
+export default function Prediction({ api, health }) {
   const [disease, setDisease] = useState("diabetes");
   const [form, setForm] = useState({});
   const [image, setImage] = useState(null);
@@ -554,6 +554,11 @@ export default function Prediction({ api }) {
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
 
+  useEffect(() => {
+    if (health === "Backend connected") {
+      setError("");
+    }
+  }, [health]);
   /* =========================================================
      CHANGE DISEASE
      ========================================================= */
