@@ -11,3 +11,4 @@ flwr
 spacy
 nltk
 transformers
+gunicorn
